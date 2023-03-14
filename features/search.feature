@@ -9,7 +9,7 @@ Feature: buying tickets
         Scenario: the user selects and books several seats
                 Given user is on page
                 When user choose day and movie
-                And select row and seats
+                And select row and two seats
                 Then ticket purchase is confirmed
 
         Scenario: the user trying to select reserved seats

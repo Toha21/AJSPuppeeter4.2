@@ -50,7 +50,7 @@ When("select row and seat", async function () {
 });
 
 When(
-  "select row and seats",
+  "select row and two seats",
   async function () {
     //выбор ряда и нескольких мест
     return await orderTickets(this.page, 7, 7, 8);
